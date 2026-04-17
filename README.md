@@ -15,7 +15,6 @@
 
 This README is aligned with the current repository configuration.
 
-- Online demo: `http://47.106.111.217:4173`
 - Backend port: `8088`
 - Database URL: `jdbc:mysql://127.0.0.1:3306/shuiyu`
 - Database username: `root`
@@ -34,7 +33,7 @@ Important:
 
 You can try the current online build here:
 
-- `http://47.106.111.217:4173`
+http://47.106.111.217:4173
 
 ## Repository Structure
 
