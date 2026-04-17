@@ -2,7 +2,7 @@
 
 [中文说明](./README.zh-CN.md)
 
-`shuiyu_game` is a front-end / back-end separated Shuiyu poker project.
+Shui Yu (Water Fish) is the favorite drinking game among people in Guangxi. It is a card game that has evolved through continuous improvements and upgrades.
 
 ## Current Stack
 
@@ -12,8 +12,6 @@
 - Java: 17
 
 ## Current Environment
-
-This README is aligned with the current repository configuration.
 
 - Backend port: `8088`
 - Database URL: `jdbc:mysql://127.0.0.1:3306/shuiyu`
