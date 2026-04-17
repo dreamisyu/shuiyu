@@ -1,0 +1,30 @@
+server:
+  port: 8088
+
+spring:
+  application:
+    name: shuiyu-game-backend
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/shuiyu?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
+  jackson:
+    time-zone: Asia/Shanghai
+    date-format: yyyy-MM-dd HH:mm:ss
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+logging:
+  level:
+    com.shuiyu.game: info
+
+shuiyu:
+  jwt:
+    secret: dreamisyu-shuiyu-game-secret-key-2026
+    expire-hours: 24
+  ai:
+    username-prefix: ai_player_

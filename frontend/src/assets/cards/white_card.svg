@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 223 324" role="img" aria-labelledby="title desc">
+  <title id="title">白牌</title>
+  <desc id="desc">水鱼扑克牌里的白牌</desc>
+  <defs>
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffefa" />
+      <stop offset="100%" stop-color="#efe6d5" />
+    </linearGradient>
+    <linearGradient id="ink" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6f5a33" />
+      <stop offset="100%" stop-color="#b99856" />
+    </linearGradient>
+  </defs>
+  <rect x="1.5" y="1.5" width="220" height="321" rx="16" fill="url(#card-bg)" stroke="#1f1b12" stroke-width="3" />
+  <rect x="13" y="13" width="197" height="298" rx="10" fill="none" stroke="#b99856" stroke-width="2.5" opacity="0.9" />
+  <text x="28" y="42" fill="#6f5a33" font-size="28" font-family="'Palatino Linotype', 'Songti SC', serif">白</text>
+  <text x="195" y="285" fill="#6f5a33" font-size="28" font-family="'Palatino Linotype', 'Songti SC', serif" text-anchor="end">白</text>
+  <g transform="translate(111.5 164)">
+    <circle r="54" fill="none" stroke="url(#ink)" stroke-width="3" opacity="0.85" />
+    <circle r="40" fill="none" stroke="#d8c18e" stroke-width="1.5" opacity="0.8" />
+    <path d="M -20 -26 C -7 -40 7 -40 20 -26 C 30 -15 32 0 20 14 C 8 28 -8 28 -20 14 C -32 0 -30 -15 -20 -26 Z" fill="#f6f0e1" stroke="#9d834f" stroke-width="2.5" />
+    <path d="M -16 -18 C -6 -28 6 -28 16 -18 C 22 -10 23 0 16 8 C 8 18 -8 18 -16 8 C -23 0 -22 -10 -16 -18 Z" fill="#ffffff" stroke="#d8c18e" stroke-width="1.5" />
+    <text y="8" fill="#8f7240" font-size="34" font-family="'Palatino Linotype', 'Songti SC', serif" text-anchor="middle">白</text>
+  </g>
+</svg>

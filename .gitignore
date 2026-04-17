@@ -1,0 +1,6 @@
+/jdk17/
+/backend/logs/
+/backend/*.log
+/.idea/
+.DS_Store
+Thumbs.db
